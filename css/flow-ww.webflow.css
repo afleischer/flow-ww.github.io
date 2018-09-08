@@ -561,6 +561,8 @@ blockquote {
     width: 100vw;
     height: 100px;
     background: #f58025;
+	background-image: url("images/third-top-orange.svg");
+
 }
 
 .section-third-start {
