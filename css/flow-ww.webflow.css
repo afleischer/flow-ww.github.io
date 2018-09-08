@@ -327,8 +327,8 @@ blockquote {
   padding-bottom: 0px;
   /* background-image: url('../images/Adobe_102478472.jpeg'), -webkit-linear-gradient(270deg, #533019, #533019);
   background-image: url('../images/Adobe_102478472.jpeg'), linear-gradient(180deg, #533019, #533019); */
-   background-image: url('../images/coffee-orange.png'), -webkit-linear-gradient(270deg, #533019, #533019);
-  background-image: url('../images/coffee-orange.png'), linear-gradient(180deg, #533019, #533019);
+   background-image: url('../images/coffee-orange.svg'), -webkit-linear-gradient(270deg, #533019, #533019);
+  background-image: url('../images/coffee-orange.svg'), linear-gradient(180deg, #533019, #533019);
   background-position: 0px 0px, 0px 0px;
   background-size: 3250px, auto;
   color: #533019;
