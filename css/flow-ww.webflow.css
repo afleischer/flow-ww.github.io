@@ -691,6 +691,14 @@ blockquote {
 
 /* End top swoosh calibration */
 
+@media (max-width: 451px){
+
+	.nav-block{
+		padding-left: none;
+	}	
+
+}
+
 @font-face {
   font-family: 'Aldo pc';
   src: url('../fonts/Aldo_PC.eot') format('embedded-opentype'), url('../fonts/Aldo_PC.woff') format('woff'), url('../fonts/Aldo_PC.ttf') format('truetype');
