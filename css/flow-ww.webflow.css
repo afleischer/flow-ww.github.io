@@ -565,6 +565,14 @@ blockquote {
 
 }
 
+.second-third-buffer-post-post{
+      background-color:#f58025;
+    width:500px;
+    height:50px;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+}
+
 .section-third-start {
 
 }
