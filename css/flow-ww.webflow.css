@@ -545,6 +545,10 @@ blockquote {
 }
 
 
+.buffer-container{
+  position: absolute;
+}
+
 .second-third-buffer {
     width: 100vw;
     height: 100px;
@@ -692,6 +696,9 @@ blockquote {
 
 @media screen and (max-height: 800px), screen and (min-width: 1900px){
 
+  .buffer-container{
+    top:140vh;
+  }
   .div-block{
     height: 140vh;
   }
@@ -699,12 +706,20 @@ blockquote {
 }
 
 @media (max-height: 680px){
+
+  .buffer-container{
+    top:160vh;
+  }
   .div-block{
     height: 160vh;
   }
 }
 
 @media (max-height: 550px){
+
+  .buffer-container{
+    top:200vh;
+  }  
   .div-block{
     height: 200vh;
   }
@@ -713,6 +728,7 @@ blockquote {
 /* End top swoosh calibration */
 
 @media (max-width: 451px){
+
 
 	.nav-block{
 		padding-left: none;
