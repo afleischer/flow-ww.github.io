@@ -326,7 +326,7 @@ blockquote {
   position: relative;
   z-index: 2;
   margin-top: -150px;
-  padding-top: 53px;
+  /* padding-top: 53px; */
   padding-bottom: 0px;
   /* background-image: url('../images/Adobe_102478472.jpeg'), -webkit-linear-gradient(270deg, #533019, #533019);
   background-image: url('../images/Adobe_102478472.jpeg'), linear-gradient(180deg, #533019, #533019); */
