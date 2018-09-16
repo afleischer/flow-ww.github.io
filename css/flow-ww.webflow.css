@@ -64,6 +64,7 @@ blockquote {
   /* background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.15) ), url(../images/flow_doodle_w_orange_top.jpg); */
   background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.15) ), url(../images/flow_doodle_comp.png);
   background-size: cover;
+  background-attachment: fixed;
 
 }
 
@@ -547,7 +548,7 @@ blockquote {
 
 
 .buffer-container{
-  position: absolute;
+  background-image: url(../images/top_section_bottom_orange.png);
 }
 
 .second-third-buffer {
