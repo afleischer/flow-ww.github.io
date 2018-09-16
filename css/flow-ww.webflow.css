@@ -675,6 +675,11 @@ blockquote {
 
 }
 
+
+#buffer {
+    height: 300px;
+}
+
 /* top swoosh calibration */
 
 @media screen and (max-height: 800px), screen and (min-width: 1900px){
