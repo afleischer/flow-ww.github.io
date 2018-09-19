@@ -747,7 +747,7 @@ blockquote {
 
 
 #buffer {
-    height: 300px;
+    /* height: 300px; */ 
 }
 
 /* top swoosh calibration */
