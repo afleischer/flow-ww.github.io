@@ -124,7 +124,7 @@ blockquote {
 .full-width-svg {
   display: block;
   /*max-width: 100%;*/
-  width: 100vw;
+  width: 102vw;
 
 }
 
@@ -262,6 +262,8 @@ blockquote {
   padding-left: 0px;
   float: none;
   text-align: left;
+
+  max-width: 460px;
 }
 
 .image-2 {
@@ -274,6 +276,8 @@ blockquote {
   margin-right: auto;
   margin-left: auto;
   padding-left: 0%;
+
+  max-width: 460px;
 }
 
 .row {
@@ -486,6 +490,25 @@ blockquote {
 .block-quote-2 {
   color: #533019;
 }
+
+
+/* Image styling in second section */
+
+.rocket {
+  min-width: 250px;
+}
+
+.organization {
+  min-width: 350px;
+}
+
+.people {
+  min-width: 400px;
+}
+
+
+/* Image min for third section */
+
 
 .button {
   margin-left: calc(50vw - 68px);
@@ -739,7 +762,7 @@ blockquote {
   }
 
   .div-block-17{
-    height: calc(140vh - 100px);
+    top: calc(140vh - 100px);
   }
 
 
@@ -754,7 +777,7 @@ blockquote {
     height: 160vh;
   }
   .div-block-17{
-    height: calc(160vh - 100px);
+    top: calc(160vh - 100px);
   }
 }
 
@@ -767,7 +790,7 @@ blockquote {
     height: 200vh;
   }
   .div-block-17{
-    height: calc(200vh - 100px);
+    top: calc(200vh - 100px);
   }
 }
 

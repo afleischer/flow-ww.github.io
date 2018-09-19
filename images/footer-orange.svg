@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg189"
    version="1.1"
-   viewBox="0 0 232.48285 23.452312"
+   viewBox="0 0 230 23.452312"
    height="23.452312mm"
-   width="232.48285mm">
+   width="230mm"
+   sodipodi:docname="footer-orange.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1699"
+     inkscape:window-height="1163"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="22.627417"
+     inkscape:cx="12.419622"
+     inkscape:cy="80.628017"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g28" />
   <defs
      id="defs183" />
   <metadata
@@ -33,7 +57,9 @@
       <path
          id="path30"
          style="fill:#f58025;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="m 0,0 h -658.998 v 66.479 c 0,0 323.155,-70.66 658.641,-37.415 C 0.096,29.109 0,0 0,0" />
+         d="m 0,0 h -659.9355 l -0.66958,66.38525 c 0,0 325.19164,-70.5447719 660.67764117,-37.299772 C 0.0950866,28.525174 0,0 0,0"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
     </g>
   </g>
 </svg>
