@@ -61,7 +61,7 @@ blockquote {
 
 .div-block {
   height: 120vh;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   /* background-image: url('../images/flow_doodle_w_orange_top.png'); */ 
   background-position: 50% 100%;
   background-size: cover;
