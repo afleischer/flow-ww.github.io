@@ -124,7 +124,7 @@ blockquote {
 .full-width-svg {
   display: block;
   /*max-width: 100%;*/
-  width: 102vw;
+  width: 104vw;
 
 }
 
@@ -812,6 +812,22 @@ blockquote {
   }
 
 }
+
+/* Top navbar specific styling */
+
+@media (max-width: 453px){
+  .nav-section{
+    padding-left: 0px;
+  }
+
+
+  h1{
+    font-size: 24px;
+  }
+}
+
+
+/* Font issues */
 
 @font-face {
   font-family: 'Aldo pc';
