@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/afleischer/flow-ww.github.io/issues"
   },
-  "homepage": "https://github.com/afleischer/flow-ww.github.io#readme"
+  "homepage": "https://github.com/afleischer/flow-ww.github.io#readme",
+  "dependencies": {
+    "svg.js": "^2.6.6"
+  }
 }

@@ -644,6 +644,13 @@ blockquote {
 }
 
 
+.svgTest{
+  resize: 'horizontal';
+    overflow: 'hidden';
+    width: '1000px';
+    height: 'auto';
+}
+
 
 @media (max-width: 991px) {
   .div-block-7 {
