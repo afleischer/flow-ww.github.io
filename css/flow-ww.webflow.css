@@ -1,3 +1,7 @@
+:root{
+--first-container-height: 100vh;
+}
+
 a {
   color: #4f3324;
   text-align: center;
@@ -543,9 +547,12 @@ blockquote {
 .second_section {
   background: #f58025 linear-gradient(180deg, rgba(0, 0, 0, .15), rgba(0, 0, 0, .15));
   /* background-image: linear-gradient(180deg, rgba(0, 0, 0, .15), rgba(0, 0, 0, .15)) ,url(../images/swooshclip-clipped-nochip-png.png); */
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .15), rgba(0, 0, 0, .0)) ,url(../images/orange-lamp-second-sec.jpg);
+  /* background-image: linear-gradient(180deg, rgba(0, 0, 0, .15), rgba(0, 0, 0, .0)) ,url(../images/orange-lamp-second-sec.jpg); */
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .15), rgba(0, 0, 0, .0)) ,url(../images/lamp-dim-comp.jpg);
   padding-bottom: 100px;
   background-size:cover;
+  background-position: -500px;
+
 }
 
 
@@ -651,6 +658,10 @@ blockquote {
     height: 'auto';
 }
 
+.footer-div{
+    height: 100px;
+    background: #f58025 linear-gradient(180deg, rgba(0, 0, 0, .0), rgba(0, 0, 0, .0));
+}
 
 @media (max-width: 991px) {
   .div-block-7 {
@@ -659,12 +670,16 @@ blockquote {
     background-size: cover;
   }
   .second_section {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .15), rgba(0, 0, 0, .15)) ,url(../images/chip-board-flipped.svg);
+   /* background-image: linear-gradient(180deg, rgba(0, 0, 0, .15), rgba(0, 0, 0, .15)) ,url(../images/chip-board-flipped.svg); */
     background-size: cover;
   }
 }
 
 @media (max-width: 800px) {
+
+  .div-block-11 {
+    background-position: -600px;
+  }
 
   .grid-parent {
     grid-template-columns: 100vw;
@@ -723,6 +738,11 @@ blockquote {
     height: 140vh;
   }
 
+  .div-block-17{
+    height: calc(140vh - 100px);
+  }
+
+
 }
 
 @media (max-height: 680px){
@@ -733,6 +753,9 @@ blockquote {
   .div-block{
     height: 160vh;
   }
+  .div-block-17{
+    height: calc(160vh - 100px);
+  }
 }
 
 @media (max-height: 550px){
@@ -742,6 +765,9 @@ blockquote {
   } */ 
   .div-block{
     height: 200vh;
+  }
+  .div-block-17{
+    height: calc(200vh - 100px);
   }
 }
 
