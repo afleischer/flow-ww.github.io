@@ -666,7 +666,7 @@ blockquote {
 @media (max-width: 991px) {
   .div-block-7 {
     background-position: 0px 0px, -261px 0px;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .15), rgba(0, 0, 0, .15)), url(../images/chip-board-flipped.svg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .15), rgba(0, 0, 0, .15)), url(../images/lamp-dim-comp.jpg);
     background-size: cover;
   }
   .second_section {
