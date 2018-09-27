@@ -317,6 +317,11 @@ blockquote {
   color: white;
   padding-left: 55%;
   font-family: amaranth;
+
+      float: right;
+    padding-right: 10vw;
+    padding-top: 50px;
+    font-size: 24px;
 }
 
 .nav-link {
