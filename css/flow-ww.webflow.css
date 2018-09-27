@@ -124,7 +124,7 @@ blockquote {
 .full-width-svg {
   display: block;
   /*max-width: 100%;*/
-  width: 102vw;
+  width: 100vw;
 
 }
 
@@ -377,7 +377,7 @@ blockquote {
 }
 
 .image-6 {
-
+    min-width: 500px;
 }
 
 .image-7 {
