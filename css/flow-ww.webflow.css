@@ -516,14 +516,20 @@ blockquote {
 
 
 .button {
-  margin-left: calc(50vw - 68px);
-  margin-top: 40px;
+  /*margin-left: calc(50vw - 68px);*/
+  margin: auto;
+  width: 200px;
+   margin-top: 80px;
   padding: 14px 30px;
   border-radius: 5px;
   background-color: #f58025;
   font-size: 12px;
   line-height: 20px;
 
+}
+
+.w-button {
+  display: block;
 }
 
 .paragraph-3 {
