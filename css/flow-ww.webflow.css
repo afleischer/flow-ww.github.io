@@ -123,8 +123,8 @@ blockquote {
 
 .full-width-svg {
   display: block;
-  /*max-width: 100%;*/
-  width: 100vw;
+  width: 100%;
+  /* width: 100vw; */
 
 }
 
@@ -315,7 +315,7 @@ blockquote {
 .nav-section {
   display: inline-block;
   color: white;
-  padding-left: 55%;
+  /* padding-left: 55%; */
   font-family: amaranth;
 
       float: right;
@@ -762,6 +762,15 @@ blockquote {
 }
 
 /* top swoosh calibration */
+
+@media screen and (min-width: 767){
+
+
+
+}
+
+
+
 
 @media screen and (max-height: 800px), screen and (min-width: 1900px){
 
