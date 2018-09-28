@@ -845,6 +845,13 @@ blockquote {
   }
 }
 
+@media (min-width: 1900px) {
+  .second_section{
+    background-position: 0;
+  }
+}
+
+
 
 /* Font issues */
 
