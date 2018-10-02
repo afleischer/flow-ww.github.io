@@ -8,3 +8,87 @@
 .div-block7{
     border-image: url(C:/xampp/htdocs/flow-static/images/orange-swoosh-solo.svg);
 }
+
+
+
+.third-section-card{
+    margin-top: 150px;
+    margin-right: 35px;
+    margin-left: 35px;
+    padding: 40px;
+    border: 0.5px none #999595;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, .85);
+    color: #533019;
+
+    overflow: auto;
+    display: grid;
+    grid-row-gap: 40px;
+    grid-template-columns: 1.3fr 2fr;
+    grid-template-areas: 
+    	"nick n_desc"
+    	"terri t_desc";
+}
+
+
+.nick_img{
+	grid-area: nick;
+	/*min-width: 500px; */
+}
+
+.w-col-6{
+	width: 80%;
+}
+
+.nick_descr{
+	grid-area: n_desc;
+}
+
+.terri_img{
+	grid-area: terri;
+	height: 100%;
+	/* min-width: 500px; */
+}
+
+.div-block-9{
+ width: 80%;
+}
+
+.terri_descr{
+	grid-area: t_desc;
+}
+
+@media screen and (max-width : 1140px){
+	.third-section-card{
+		justify-items: center;
+	    grid-template-columns: 1fr;
+		grid-template-areas: 
+		"nick"
+		"n_desc"
+		"terri"
+		"t_desc";
+	}
+	.nick_descr{
+		padding-left: 10%;
+	    padding-right: 10%;
+	}
+
+	.terri_descr{
+		padding-left: 10%;
+	    padding-right: 10%;		
+	}
+
+	.w-col-6{
+		width: 100%;
+	}
+	.div-block-9{
+		width: 100%;
+	}
+
+	#nick_image{
+		min-width: 400px;
+	}
+	#terri_image{
+		min-width: 400px;
+	}
+}
